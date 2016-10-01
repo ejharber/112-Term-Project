@@ -1,0 +1,23 @@
+before you begin make sure you have these modules installed for python 3:
+
+pyaudio
+wave
+sys
+audioop
+os
+math
+spectrograph import get_formants
+requests
+string
+numpy
+scipy.signal
+scipy.fftpack
+tkinter
+ast
+
+Most of these modules are already available but just make sure. If you don’t have all of these modules I suggest you either install these packages through pip3 or home-brew
+
+Because my program uses unix symbols that aren’t always recognised in all editors It is easiest to open in sublime. The best way to avoid this to run the program in terminal but while in the directory that the file is located. i.e. if the “term project” file is located on the desktop you will have to use these terminal commands:
+cd Desktop
+cd “term project” (its important that you use the quotes because this directory has two words”
+python3 words.py
